@@ -1,13 +1,34 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//ICS Generator//NONSGML ICS Generator//DE
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Vienna
+X-LIC-LOCATION:Europe/Vienna
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:1761761442234-1moog7f?@ics-generator.de
+UID:1761761442234-1moog7f@ics-generator.de
 DTSTAMP:20251029T190311Z
-DTSTART:20251105T190000
-DTEND:20251105T210000
-SUMMARY:Live-Webinar - Wie du als Bauträger trotz Immobilien­krise deine Neubau­projekte wie am Fließband abverkaufen kannst
-DESCRIPTION:Über diesen Link kannst du am Live-Webinar teilnehmen: https://event.webinarjam.com/mmzm3/go/live/xprp8fli7sps9. Walter Temmer zeigt dir die 3 Hebel\, die jeder Bauträger verstehen und einsetzen muss\, um in der Krise seine Neubauprojekte wie am Fließband verkaufen zu können.
+DTSTART;TZID=Europe/Vienna:20251105T190000
+DTEND;TZID=Europe/Vienna:20251105T210000
+SUMMARY:Live-Webinar - Wie du als Bauträger trotz Immobilienkrise deine Neubauprojekte wie am Fließband abverkaufen kannst
+DESCRIPTION:Über diesen Link kannst du am Live-Webinar teilnehmen: https://event.webinarjam.com/mmzm3/go/live/xprp8fli7sps9\nWalter Temmer zeigt dir die 3 Hebel\, die jeder Bauträger verstehen und einsetzen muss\, um in der Krise seine Neubauprojekte wie am Fließband verkaufen zu können.
+LOCATION:online
+URL:https://event.webinarjam.com/mmzm3/go/live/xprp8fli7sps9
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT30M
