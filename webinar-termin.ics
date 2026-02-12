@@ -21,14 +21,14 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:4cd704eg-1c45-548g-cc4e-1562c161d794@temmer-webinar
-DTSTAMP:20260129T193700Z
-DTSTART;TZID=Europe/Vienna:20260210T180000
-DTEND;TZID=Europe/Vienna:20260210T200000
+UID:9ab123ef-2d56-659h-dd5f-2673d272e805@temmer-webinar
+DTSTAMP:20260212T143000Z
+DTSTART;TZID=Europe/Vienna:20260224T180000
+DTEND;TZID=Europe/Vienna:20260224T200000
 SUMMARY:Die 3 Hebel, die Bauträger 2026 umsetzen müssen, um ihre Neubauprojekte abzuverkaufen
-DESCRIPTION:Über diesen Link kannst du am Live-Webinar teilnehmen: https://event.webinarjam.com/mmzm3/go/live/2wqw2cm7s7s6sk\nWalter Temmer zeigt dir die 3 Hebel\, die jeder Bauträger verstehen und einsetzen muss\, um in der Krise seine Neubauprojekte wie am Fließband abverkaufen zu können.
+DESCRIPTION:Über diesen Link kannst du am Live-Webinar teilnehmen: https://event.webinarjam.com/mmzm3/go/live/3p1pwflmt3srs5\nWalter Temmer zeigt dir die 3 Hebel\, die jeder Bauträger verstehen und einsetzen muss\, um in der Krise seine Neubauprojekte wie am Fließband abverkaufen zu können.
 LOCATION:online
-URL:https://event.webinarjam.com/mmzm3/go/live/2wqw2cm7s7s6sk
+URL:https://event.webinarjam.com/mmzm3/go/live/3p1pwflmt3srs5
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT30M
